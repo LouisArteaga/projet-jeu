@@ -26,6 +26,7 @@ setInterval(function () {
 
     maCollision();
     collisionPad();
+    collisionWall();
 }, 50);
 
 function maCollision() {
@@ -62,4 +63,12 @@ function collisionPad() {
 function randomIntFromInterval(min,max) // min and max included
 {
     return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+function collisionWall(){
+    if (maBalle.offsetTop <= 0){
+        vLeft = -vLeft
+        vTop = -vTop
+    }
+
 }
