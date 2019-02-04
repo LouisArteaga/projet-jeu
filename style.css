@@ -35,12 +35,12 @@
 .balle {
     position: absolute;
     background-color: blue;
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
     border-radius: 40px;
     border: solid black;
-    left: 40%;
-    top: 40%;
+    left: 35%;
+    top: 50%;
 }
 
 .contenuebas {
@@ -48,4 +48,8 @@
     height: 30px;
     width: 200px;
     background-color: red;
+}
+
+.destroyed {
+    opacity: 0;
 }
