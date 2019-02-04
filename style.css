@@ -22,21 +22,30 @@
 }
 
 .pad {
+    position: absolute;
     background-color: blue;
     width: 200px;
     height: 30px;
     border: solid black;
-    margin-top: 29%;
-    margin-left: 43%;
+    top: 90%;
+    left: 43%;
     
 }
 
 .balle {
+    position: absolute;
     background-color: blue;
     width: 50px;
     height: 50px;
     border-radius: 40px;
     border: solid black;
-    margin-left: 40%;
-    margin-top: 80px;
+    left: 40%;
+    top: 40%;
+}
+
+.contenuebas {
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    background-color: red;
 }
