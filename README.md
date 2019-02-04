@@ -1,7 +1,7 @@
-# Présentation du projet jeu
+# Présentation du projet jeu 1.0.0
 
 
-**Version 1.0.0**
+
 
 **intérêt du projet jeu**
 ===
