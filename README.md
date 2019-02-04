@@ -51,10 +51,12 @@ function maCollision() {
 
 ## Version test
 
-Le jeu est en première version donc des améliorations sont à venir
+Le jeu est en première version donc des améliorations sont à venir.
 
 ---
 
-**Première version par Louis, simplon**
+## Libre d'utilisation 
+
+Mon code est libre vous pouvez l'utiliser dans vos projets sans problème.
 
 ---
