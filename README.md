@@ -55,6 +55,6 @@ Le jeu est en première version donc des améliorations sont à venir
 
 ---
 
-**Première version codé par Louis, simplon**
+**Première version par Louis, simplon**
 
 ---
