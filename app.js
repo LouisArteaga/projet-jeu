@@ -4,23 +4,26 @@ let newMove = document.querySelector('.pad');
 let move = document.querySelector('body');
 let maBalle = document.querySelector('.balle');
 let newCarrer = document.querySelectorAll('.carrer');
+let score = document.querySelector('h2');
 
-move.addEventListener('keydown', function (event) {
+
+
+
+
+move.addEventListener('mousemove', function (event) {
 
     console.log(event.code);
 
 
-    if (event.code === 'ArrowRight' && newMove.offsetLeft <= 1350) {
-        newMove.style.left = newMove.offsetLeft + 20 + 'px';
-    }
-    if (event.code === 'ArrowLeft') {
-        newMove.style.left = newMove.offsetLeft - 20 + 'px';
-    }
+   newMove.style.left = event.x + 'px';
 
 });
+
+
 let vLeft = 0;
-let vTop = -10;
-let speed = 1.15;
+let vTop = -20;
+
+let count = 0;
 
 setInterval(function () {
     maBalle.style.left = maBalle.offsetLeft + vLeft + 'px';
@@ -29,6 +32,7 @@ setInterval(function () {
     maCollision();
     collisionPad();
     collisionWall();
+    win();
 }, 50);
 
 function maCollision() {
@@ -43,9 +47,12 @@ function maCollision() {
                 maBalle.offsetHeight + maBalle.offsetTop > item.offsetTop) {
                 console.log('bloup');
                 item.classList.add("destroyed")
+                score.textContent = 'Score: ' + count++;
                 vLeft = randomIntFromInterval(-15, 15);
                 vTop = -vTop;
             }
+
+            
         }
     }
 }
@@ -57,12 +64,12 @@ function collisionPad() {
         maBalle.offsetHeight + maBalle.offsetTop > newMove.offsetTop) {
 
 
-        vLeft = randomIntFromInterval(-15, 15) * speed;
-        vTop = -vTop * speed;
+        vLeft = randomIntFromInterval(-15, 15)
+        vTop = -vTop;
     }
 }
 
-function randomIntFromInterval(min,max) // min and max included
+function randomIntFromInterval(min,max) 
 {
     return Math.floor(Math.random()*(max-min+1)+min);
 }
@@ -87,5 +94,13 @@ function collisionWall(){
     if (maBalle.offsetTop >= 765){
         maBalle.style.display = 'none';
         alert('tu as perdu');
+    }
+}
+
+
+
+function win(){
+    if (score === 23){
+        alert('tu as gagné!')
     }
 }

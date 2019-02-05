@@ -1,6 +1,12 @@
+body {
+    cursor: none;
+    overflow: hidden;
+}
+
 .container {
     border: 2px solid black;
     height: 95vh;
+    
 }
 
 .contenuehaut {
@@ -35,8 +41,8 @@
 .balle {
     position: absolute;
     background-color: blue;
-    width: 20px;
-    height: 20px;
+    width: 200x;
+    height: 50px;
     border-radius: 40px;
     border: solid black;
     left: 35%;
