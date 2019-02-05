@@ -20,6 +20,8 @@ move.addEventListener('keydown', function (event) {
 });
 let vLeft = 0;
 let vTop = -10;
+let speed = 1.25;
+
 setInterval(function () {
     maBalle.style.left = maBalle.offsetLeft + vLeft + 'px';
     maBalle.style.top = maBalle.offsetTop + vTop + 'px';
@@ -55,7 +57,7 @@ function collisionPad() {
         maBalle.offsetHeight + maBalle.offsetTop > newMove.offsetTop) {
 
 
-        vLeft = -vLeft;
+        vLeft = randomIntFromInterval(-15, 15);
         vTop = -vTop;
     }
 }
@@ -71,5 +73,18 @@ function collisionWall(){
         vTop = -vTop
         
     }
+    
+    if (maBalle.offsetLeft <= 2){
+        vLeft = randomIntFromInterval(-15, 15);
+      
+    }
 
+    if (maBalle.offsetLeft >= 1550){
+        vLeft = randomIntFromInterval(-15, 15);
+    }
+
+    if (maBalle.offsetTop >= 765){
+        maBalle.style.display = 'none';
+        alert('tu as perdu');
+    }
 }
