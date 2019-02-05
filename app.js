@@ -11,16 +11,16 @@ move.addEventListener('keydown', function (event) {
 
 
     if (event.code === 'ArrowRight' && newMove.offsetLeft <= 1350) {
-        newMove.style.left = newMove.offsetLeft + 15 + 'px';
+        newMove.style.left = newMove.offsetLeft + 20 + 'px';
     }
     if (event.code === 'ArrowLeft') {
-        newMove.style.left = newMove.offsetLeft - 15 + 'px';
+        newMove.style.left = newMove.offsetLeft - 20 + 'px';
     }
 
 });
 let vLeft = 0;
 let vTop = -10;
-let speed = 1.25;
+let speed = 1.15;
 
 setInterval(function () {
     maBalle.style.left = maBalle.offsetLeft + vLeft + 'px';
@@ -57,8 +57,8 @@ function collisionPad() {
         maBalle.offsetHeight + maBalle.offsetTop > newMove.offsetTop) {
 
 
-        vLeft = randomIntFromInterval(-15, 15);
-        vTop = -vTop;
+        vLeft = randomIntFromInterval(-15, 15) * speed;
+        vTop = -vTop * speed;
     }
 }
 
@@ -76,11 +76,12 @@ function collisionWall(){
     
     if (maBalle.offsetLeft <= 2){
         vLeft = randomIntFromInterval(-15, 15);
-      
+        maBalle.style.left = '3px';
     }
 
     if (maBalle.offsetLeft >= 1550){
         vLeft = randomIntFromInterval(-15, 15);
+        maBalle.style.left = '1549px';
     }
 
     if (maBalle.offsetTop >= 765){
