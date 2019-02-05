@@ -32,7 +32,7 @@ setInterval(function () {
     maCollision();
     collisionPad();
     collisionWall();
-    win();
+    
 }, 50);
 
 function maCollision() {
@@ -48,6 +48,7 @@ function maCollision() {
                 console.log('bloup');
                 item.classList.add("destroyed")
                 score.textContent = 'Score: ' + count++;
+                win();
                 vLeft = randomIntFromInterval(-15, 15);
                 vTop = -vTop;
             }
@@ -92,6 +93,7 @@ function collisionWall(){
     }
 
     if (maBalle.offsetTop >= 765){
+        
         maBalle.style.display = 'none';
         alert('tu as perdu');
     }
@@ -100,7 +102,8 @@ function collisionWall(){
 
 
 function win(){
-    if (score === 23){
+    if (count === 25){
         alert('tu as gagné!')
     }
 }
+

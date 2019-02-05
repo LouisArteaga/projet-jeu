@@ -1,4 +1,4 @@
-# Présentation du projet jeu 1.0.0
+# Présentation du projet jeu 1.0.1
 
 *ce projet a pour but d'approfondir nos connaissances en javascript dans un contexte inhabituel, mais de pouvoir les réutiliser plus tard dans  des projets plus concrets.*
 
@@ -9,6 +9,16 @@
 * mise en pratique des connaissances
 * utiliser le JavaScript dans un autre contexte
 * pour le portfolio
+
+---
+
+
+## Modifications de la 1.0.1
+
+ce petit patch à réglé le problème de la balle qui sortais du cadre de jeu.
+
+
+
 
 ---
 
