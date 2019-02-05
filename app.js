@@ -41,8 +41,8 @@ function maCollision() {
                 maBalle.offsetHeight + maBalle.offsetTop > item.offsetTop) {
                 console.log('bloup');
                 item.classList.add("destroyed")
-                vLeft = randomIntFromInterval(-15, 15)
-                vTop = -vTop
+                vLeft = randomIntFromInterval(-15, 15);
+                vTop = -vTop;
             }
         }
     }
@@ -55,8 +55,8 @@ function collisionPad() {
         maBalle.offsetHeight + maBalle.offsetTop > newMove.offsetTop) {
 
 
-        vLeft = -vLeft
-        vTop = -vTop
+        vLeft = -vLeft;
+        vTop = -vTop;
     }
 }
 
@@ -67,8 +67,9 @@ function randomIntFromInterval(min,max) // min and max included
 
 function collisionWall(){
     if (maBalle.offsetTop <= 0){
-        vLeft = -vLeft
+        vLeft = randomIntFromInterval(-15, 15);
         vTop = -vTop
+        
     }
 
 }
