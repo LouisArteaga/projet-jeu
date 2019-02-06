@@ -45,7 +45,7 @@ body {
     height: 20px;
     border-radius: 40px;
     border: solid black;
-    left: 35%;
+    left: 0;
     top: 50%;
 }
 
@@ -62,13 +62,18 @@ body {
 
 .text {
     width: 500px;
-    height: 200px;
+    height: 350px;
     position: absolute;
     z-index: 1;
-    background-color: grey;
+    background-color: #ccc;
     margin-left: 34%;
-    margin-top: 5%;
+    margin-top: 2%;
     display: none;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
 }
 
 .text p {

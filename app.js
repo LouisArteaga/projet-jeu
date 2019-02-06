@@ -5,6 +5,7 @@ let move = document.querySelector('body');
 let maBalle = document.querySelector('.balle');
 let newCarrer = document.querySelectorAll('.carrer');
 let score = document.querySelector('h2');
+let monText = document.querySelector('.text');
 
 
 
@@ -33,6 +34,7 @@ setInterval(function () {
     collisionPad();
     collisionWall();
     
+    
 }, 50);
 
 function maCollision() {
@@ -46,15 +48,16 @@ function maCollision() {
                 maBalle.offsetTop < item.offsetTop + item.offsetHeight &&
                 maBalle.offsetHeight + maBalle.offsetTop > item.offsetTop) {
                 console.log('bloup');
-                item.classList.add("destroyed")
                 score.textContent = 'Score: ' + count++;
-                win();
+                item.classList.add("destroyed")
+                
+                
                 vLeft = randomIntFromInterval(-15, 15);
                 vTop = -vTop;
             }
-
             
         }
+        win();
     }
 }
 
@@ -95,15 +98,20 @@ function collisionWall(){
     if (maBalle.offsetTop >= 765){
         
         maBalle.style.display = 'none';
-        alert('tu as perdu');
+        monText.style.display = "block";
+        monText.textContent = "Game over..."
     }
 }
 
 
 
 function win(){
-    if (count === 25){
-        alert('tu as gagné!')
+let monText = document.querySelector('.text');
+    
+    if (count > 23){
+        monText.style.display = "block";
+        monText.textContent = "You win!";
+        maBalle.style.display = "none";
     }
 }
 
