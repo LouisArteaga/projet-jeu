@@ -1,4 +1,7 @@
 
+/**
+ * Initialisation des variables globales au jeu
+ */
 
 let newMove = document.querySelector('.pad');
 let move = document.querySelector('body');
@@ -8,7 +11,9 @@ let score = document.querySelector('h2');
 let monText = document.querySelector('.text');
 
 
-
+/**
+ * Ajout d'un évènement sur la souris pour faire bouger le pad 
+ */
 
 
 move.addEventListener('mousemove', function (event) {
@@ -20,6 +25,9 @@ move.addEventListener('mousemove', function (event) {
 
 });
 
+/**
+ * Initialisation de variable de positionement et du score
+ */
 
 let vLeft = 0;
 let vTop = -20;
@@ -30,12 +38,23 @@ setInterval(function () {
     maBalle.style.left = maBalle.offsetLeft + vLeft + 'px';
     maBalle.style.top = maBalle.offsetTop + vTop + 'px';
 
+/**
+ * Appel des fonctions de collision
+ */
+
     maCollision();
     collisionPad();
     collisionWall();
     
     
 }, 50);
+
+
+/**
+ * Fonction qui gère la collision avec les blocs 
+ * et qui ajoute une classe pour les faire "disparaitre" avec une opacity 0
+ * gère aussi les rebonds
+ */
 
 function maCollision() {
     for (let item of newCarrer) {
@@ -61,6 +80,11 @@ function maCollision() {
     }
 }
 
+/**
+ * Fonction qui gère les collisions et les rebonds avec le pad
+ */
+
+
 function collisionPad() {
     if (maBalle.offsetLeft < newMove.offsetLeft + newMove.offsetWidth &&
         maBalle.offsetLeft + maBalle.offsetWidth > newMove.offsetLeft &&
@@ -77,6 +101,11 @@ function randomIntFromInterval(min,max)
 {
     return Math.floor(Math.random()*(max-min+1)+min);
 }
+
+/**
+ * Fonction qui gère les collisions et les rebonds 
+ * sur le cadre de jeu
+ */
 
 function collisionWall(){
     if (maBalle.offsetTop <= 0){
@@ -103,7 +132,9 @@ function collisionWall(){
     }
 }
 
-
+/***
+ * Fonction qui affiche le message quand on gagne 
+ */
 
 function win(){
 let monText = document.querySelector('.text');
