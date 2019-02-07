@@ -14,7 +14,11 @@
 
 ## Démo du jeu 
 
+** Principe du jeu sous forme de gif.
+
 <img src="demo.gif">
+
+---
 
 
 ## Modifications de la 1.0.1
