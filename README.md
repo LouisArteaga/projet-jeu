@@ -14,7 +14,7 @@
 
 ## Démo du jeu 
 
-![Alt Text](https://gitlab.com/Louis_Arteaga/projet-jeu/blob/master/ezgif.com-video-to-gif.gif)
+<img src="demo.gif">
 
 
 ## Modifications de la 1.0.1
