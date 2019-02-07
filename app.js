@@ -105,6 +105,7 @@ function randomIntFromInterval(min,max)
 /**
  * Fonction qui gère les collisions et les rebonds 
  * sur le cadre de jeu
+ * gère aussi le message 'Game over..' en cas de sorti du cadre de jeu par le bas
  */
 
 function collisionWall(){
