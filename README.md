@@ -14,7 +14,7 @@
 
 ## Démo du jeu 
 
-** Principe du jeu sous forme de gif.
+**Voilà l'interface du jeu:**
 
 <img src="demo.gif">
 
