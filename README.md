@@ -36,7 +36,7 @@
 
 ## Modifications de la 2.0.0
 
-cette mise à jour majeur a ajouté la fonctionnalité de bouger le pad grâce à la souris et régler les problèmes 
+cette mise à jour majeure a ajouté la fonctionnalité de bouger le pad grâce à la souris et régler les problèmes 
 de balle qui sort du cadre de jeu.
 
 
