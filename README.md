@@ -89,15 +89,16 @@ Le jeu est dans sa version 2 donc des améliorations sont à venir.
 
 ## Licence  
 
-Mon projet utilise la licence Beerware, pour plus d'**INFORMATION :** [Wikipedia](https://fr.wikipedia.org/wiki/Beerware)
+Mon projet utilise la licence Beerware, pour plus d'**INFORMATION :**  [Wikipedia](https://fr.wikipedia.org/wiki/Beerware)
 
 /*
- * ----------------------------------------------------------------------------
- * "LA BEER-WARE LICENCE"
- *  Du moment que vous utilisez mon code avec cette licence, vous pouvez en faire ce que vous voulez.
- Néenmoins si mon projet vous plait, si on se rencontre en personne vous pouvez m'offrir une bière.
- * ----------------------------------------------------------------------------
- */
+  ----------------------------------------------------------------------------
+ **"LA BEER-WARE LICENCE"**
+ 
+ ***Du moment que vous utilisez mon code avec cette licence, vous pouvez en faire ce que vous voulez.***
+ **Néenmoins si mon projet vous plait, si on se rencontre en personne vous pouvez m'offrir une bière.**
+  ----------------------------------------------------------------------------
+ 
 
 
 ---
