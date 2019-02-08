@@ -94,6 +94,8 @@ Mon projet utilise la licence Beerware, pour plus d'**INFORMATION :**  [Wikipedi
 
   
   **"LA LICENCE BEER-WARE"**
+
+  <img src="BeerWare.jpg">
  
  *Du moment que vous utilisez mon code avec cette licence, vous pouvez en faire ce que vous voulez.*
  
