@@ -3,7 +3,20 @@
 *ce projet a pour but d'approfondir nos connaissances en javascript dans un contexte inhabituel, mais de pouvoir les réutiliser plus tard dans  des projets plus concrets.*
 
 
-**intérêt**
+---
+
+## Technologies utilisées 
+
+---
+
+* HTML
+* CSS
+* JavaScript
+
+---
+
+
+## Intérêt 
 ===
 
 * mise en pratique des connaissances
