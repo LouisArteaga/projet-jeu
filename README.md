@@ -11,7 +11,7 @@
 
 * HTML
 * CSS
-* JavaScript (Variables, Fonctions, Conditions, Evenement, Boucles)
+* JavaScript (Variables, Fonctions, Conditions, Evenements, Boucles)
 
 ---
 
