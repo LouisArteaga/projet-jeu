@@ -93,7 +93,7 @@ Mon projet utilise la licence Beerware, pour plus d'**INFORMATION :**  [Wikipedi
 
 
   
-  **"LA BEER-WARE LICENCE"**
+  **"LA LICENCE BEER-WARE"**
  
  *Du moment que vous utilisez mon code avec cette licence, vous pouvez en faire ce que vous voulez.*
  
