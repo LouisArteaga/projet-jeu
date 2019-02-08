@@ -87,8 +87,9 @@ Le jeu est dans sa version 2 donc des améliorations sont à venir.
 
 ---
 
-## Libre d'utilisation 
+## Licence  
 
-Mon code est libre vous pouvez l'utiliser dans vos projets sans problème.
+Mon projet utilise la licence Beerware: [Wikipedia](https://fr.wikipedia.org/wiki/Beerware)
+
 
 ---
