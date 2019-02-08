@@ -97,7 +97,7 @@ Mon projet utilise la licence Beerware, pour plus d'**INFORMATION :**  [Wikipedi
  
  *Du moment que vous utilisez mon code avec cette licence, vous pouvez en faire ce que vous voulez.*
  
- **Néamoins si mon projet vous plait, et qu'on se rencontre en personne vous pouvez m'offrir une bière.**
+ **Néanmoins si mon projet vous plait, et qu'on se rencontre en personne vous pouvez m'offrir une bière.**
   
  
 
