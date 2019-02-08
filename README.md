@@ -1,4 +1,4 @@
-# Présentation du projet jeu 1.0.1
+# Présentation du projet jeu 2.0.0
 
 *ce projet a pour but d'approfondir nos connaissances en javascript dans un contexte inhabituel, mais de pouvoir les réutiliser plus tard dans  des projets plus concrets.*
 
@@ -34,9 +34,10 @@
 ---
 
 
-## Modifications de la 1.0.1
+## Modifications de la 2.0.0
 
-ce petit patch à réglé le problème de la balle qui sortais du cadre de jeu.
+cette mise à jour majeur à ajouter la fonctionnalité de bouger le pad grâce à la souris et régler les problèmes 
+de balle qui sort du cadre de jeu.
 
 
 
