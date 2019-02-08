@@ -36,7 +36,7 @@
 
 ## Modifications de la 2.0.0
 
-cette mise à jour majeur à ajouter la fonctionnalité de bouger le pad grâce à la souris et régler les problèmes 
+cette mise à jour majeur a ajouté la fonctionnalité de bouger le pad grâce à la souris et régler les problèmes 
 de balle qui sort du cadre de jeu.
 
 
@@ -97,7 +97,7 @@ Mon projet utilise la licence Beerware, pour plus d'**INFORMATION :**  [Wikipedi
  
  *Du moment que vous utilisez mon code avec cette licence, vous pouvez en faire ce que vous voulez.*
  
- **Néenmoins si mon projet vous plait, et qu'on se rencontre en personne vous pouvez m'offrir une bière.**
+ **Néamoins si mon projet vous plait, et qu'on se rencontre en personne vous pouvez m'offrir une bière.**
   
  
 
