@@ -36,7 +36,7 @@
 ## Versions à venir
 
 Comme vous pouvez le constater sur la démo en gif du jeu. La trajectoire de la balle est aléatoire.
-En fin de partie ça peut vite devenir agaçant. Dans les prochaines mise à jour je tenterais de régler le problème.
+En fin de partie ça peut vite devenir agaçant. Dans les prochaines mises à jour je tenterais d'améliorer la trajectoire. 
 
 ---
 
