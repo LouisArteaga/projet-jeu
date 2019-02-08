@@ -83,7 +83,7 @@ function maCollision() {
 
 ## Version test
 
-Le jeu est en première version donc des améliorations sont à venir.
+Le jeu est dans sa version 2 donc des améliorations sont à venir.
 
 ---
 
