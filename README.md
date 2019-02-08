@@ -7,7 +7,7 @@
 
 ## Technologies utilisées 
 
----
+
 
 * HTML
 * CSS
@@ -17,7 +17,7 @@
 
 
 ## Intérêt 
-===
+
 
 * mise en pratique des connaissances
 * utiliser le JavaScript dans un autre contexte
