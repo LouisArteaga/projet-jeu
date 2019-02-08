@@ -89,7 +89,7 @@ Le jeu est dans sa version 2 donc des améliorations sont à venir.
 
 ## Licence  
 
-Mon projet utilise la licence Beerware: [Wikipedia](https://fr.wikipedia.org/wiki/Beerware)
+Mon projet utilise la licence Beerware, pour plus d'**INFORMATION :** [Wikipedia](https://fr.wikipedia.org/wiki/Beerware)
 
 
 ---
